@@ -6,6 +6,14 @@ button, button:focus {
 a {
   text-decoration: none; }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  overflow-x: hidden; }
+
 .font-bal {
   font-family: "Baloo 2", cursive; }
 
@@ -71,3 +79,12 @@ a {
         color: #003859;
         margin-left: -4rem;
         padding: 0 1rem; }
+
+#special-price .container #filter {
+  display: flex;
+  justify-content: end; }
+
+#special-price .grid .grid-item {
+  grid-gap: 25px;
+  margin-right: 1.2rem;
+  margin-top: 1rem; }

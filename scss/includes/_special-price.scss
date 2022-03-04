@@ -1,0 +1,18 @@
+#special-price{
+    .container{
+        #filter{
+            display: flex;
+            justify-content: end;
+            
+            
+        
+        }
+    }
+    .grid{
+        .grid-item{
+            grid-gap:25px;
+            margin-right: 1.2rem;
+            margin-top: 1rem;
+        }
+    }
+}
